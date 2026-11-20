@@ -1,0 +1,40 @@
+# Keeps this profile and tiedeyez.dev in step with the Omarchy marketplace and my releases.
+# tiedeyez.dev reads data/*.json from this repo, so a commit here updates the site too.
+name: sync
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # hourly
+  workflow_dispatch:         # run it now: gh workflow run sync.yml -R Tiedeyez/Tiedeyez
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Sync plugins, releases and contribution graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 -I .github/scripts/sync.py
+      - name: Commit if anything changed
+        run: |
+          git add data README.md
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "sync: plugins, releases and contribution graph"
+          git push
