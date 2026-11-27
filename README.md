@@ -3,7 +3,7 @@
 # Tiedeyez
 
 <!-- plugins:start -->
-Plugins, themes, and small quiet things for [Omarchy](https://omarchy.org). All five are listed on the [Omarchy plugin marketplace](https://omarchyplugins.com/), and every repo ships a `DISCLOSURE.md` saying what it reads, writes and runs.
+Plugins, themes, and small quiet things for [Omarchy](https://omarchy.org). All six are listed on the [Omarchy plugin marketplace](https://omarchyplugins.com/), and every repo ships a `DISCLOSURE.md` saying what it reads, writes and runs.
 
 | | Plugin | What it is | Latest |
 | --- | --- | --- | --- |
@@ -12,6 +12,7 @@ Plugins, themes, and small quiet things for [Omarchy](https://omarchy.org). All 
 | 03 | **[Tidal Falls](https://github.com/Tiedeyez/tidal)** | A 16-bit waterfall for your Omarchy desktop. The top bar is the brink, and the wordmark rises from the water. | [v1.1.0](https://github.com/Tiedeyez/tidal/releases/tag/v1.1.0) |
 | 04 | **[OmaLvL](https://github.com/Tiedeyez/omalvl)** | Level up by using your Omarchy machine: 17 skills in six areas, a Rice rating, theme seasons and quests that teach Omarchy and Linux. Pixel art in your theme's colours. | [v1.0.9](https://github.com/Tiedeyez/omalvl/releases/tag/v1.0.9) |
 | 05 | **[Halo Player](https://github.com/Tiedeyez/halo)** | Halo: a native music player for Omarchy. Your library, mixed like a DJ would, with visuals drawn from the song. | [v1.0.3](https://github.com/Tiedeyez/halo/releases/tag/v1.0.3) |
+| 06 | **[OmAiry](https://github.com/Tiedeyez/omairy)** | A small winged Omarchy mark that lives on your desktop and teaches you Omarchy keybindings. | [v1.0.1](https://github.com/Tiedeyez/omairy/releases/tag/v1.0.1) |
 
 Install any of them with one command, for example:
 
