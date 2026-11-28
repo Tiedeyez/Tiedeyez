@@ -11,7 +11,7 @@ Plugins, themes, and small quiet things for [Omarchy](https://omarchy.org). All 
 | 02 | **[Omacube](https://github.com/Tiedeyez/omacube)** | Your Omarchy desktop as a 3x3 puzzle cube: an endless stack of legal cube states in your theme's colours that rolls as you switch workspaces. | [v0.5.0](https://github.com/Tiedeyez/omacube/releases/tag/v0.5.0) |
 | 03 | **[Tidal Falls](https://github.com/Tiedeyez/tidal)** | A 16-bit waterfall for your Omarchy desktop. The top bar is the brink, and the wordmark rises from the water. | [v1.1.0](https://github.com/Tiedeyez/tidal/releases/tag/v1.1.0) |
 | 04 | **[OmaLvL](https://github.com/Tiedeyez/omalvl)** | Level up by using your Omarchy machine: 17 skills in six areas, a Rice rating, theme seasons and quests that teach Omarchy and Linux. Pixel art in your theme's colours. | [v1.0.9](https://github.com/Tiedeyez/omalvl/releases/tag/v1.0.9) |
-| 05 | **[Halo Player](https://github.com/Tiedeyez/halo)** | Halo: a native music player for Omarchy. Your library, mixed like a DJ would, with visuals drawn from the song. | [v1.0.3](https://github.com/Tiedeyez/halo/releases/tag/v1.0.3) |
+| 05 | **[Halo Player](https://github.com/Tiedeyez/halo)** | CymtX: music you can see. A native music player for Omarchy that turns every song into a mandala of pixel sand and mixes your library like a DJ would. Formerly Halo. | [v1.1.0](https://github.com/Tiedeyez/cymtx/releases/tag/v1.1.0) |
 | 06 | **[OmAiry](https://github.com/Tiedeyez/omairy)** | A small winged Omarchy mark that lives on your desktop and teaches you Omarchy keybindings. | [v1.0.1](https://github.com/Tiedeyez/omairy/releases/tag/v1.0.1) |
 
 Install any of them with one command, for example:
